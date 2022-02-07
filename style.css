@@ -1,0 +1,157 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial;
+}
+
+body {
+    background-color: #F0F8FF;
+}
+
+/* Header */
+header {
+    box-shadow: 0px 0px 10px gray;
+}
+
+header h1 {
+    padding: 15px;
+    background-color: black;
+    color: white;
+}
+
+/* Main */
+main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin: auto 20px;
+}
+
+/* Content */
+a.tambah {
+    display: inline-block;
+    margin-bottom: 10px;
+    background-color: darkorange;
+}
+
+a.tambah:hover {
+    background-color: orange;
+}
+
+a.kembali:hover {
+    background-color: orange;
+}
+
+fieldset {
+    padding: 10px;
+    border: 2px outset black;
+    width: fit-content;
+}
+
+legend {
+    padding: 5px;
+    border: 2px outset black;
+}
+
+div.content {
+    background-color: white;
+    padding: 20px 50px;
+    width: fit-content;
+    margin: 50px auto;
+    border: 1px solid black;
+}
+
+table.data-buku, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+table.data-buku tr:nth-child(odd) {
+    background-color: whitesmoke;
+}
+
+table.data-buku td:nth-child(even) {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+table.data-buku th, td {
+    padding: 10px;
+}
+
+table.data-buku tr > td:last-child {
+    display: flex;
+}
+
+table.data-buku tr > td:last-child > a {
+    margin: auto 5px;
+}
+
+div.content a {
+    font-weight: bold;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+a.edit {
+    background-color: darkblue;
+}
+
+a.hapus {
+    background-color: darkred;
+}
+
+a.edit:hover {
+    background-color: blue;
+}
+
+a.hapus:hover {
+    background-color: red;
+}
+
+/* Navigation */
+div.navigation {
+    background-color: white;
+    padding: 15px;
+    width: fit-content;
+    height: fit-content;
+    margin: 50px auto;
+    border: 1px solid black;
+}
+
+div.navigation ul {
+    width: 85%;
+    margin: auto;
+}
+
+div.navigation a {
+    color: blue;
+    text-decoration: none;
+}
+
+div.navigation a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+    height: 150px;
+    padding: 15px;
+}
+
+footer div > a {
+    color: white;
+    text-decoration: none;
+}
+
+footer div > a:hover {
+    color: white;
+    text-decoration: underline;
+}
